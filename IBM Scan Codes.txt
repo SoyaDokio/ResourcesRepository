@@ -1,0 +1,1 @@
+The following table is nothing to do with ASCII, but has been requested by a number of you out there. When a key on your keyboard is pressed, a code is sent which can be recognised by software. Programmers will find the most use for this table to map keys to actions for the function keys etc.
