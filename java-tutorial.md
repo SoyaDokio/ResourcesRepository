@@ -7,3 +7,4 @@ Java tutorial
 5. [Apsara Clouder基础技能认证：阿里巴巴Android开发规范](https://edu.aliyun.com/certification/cldt04)
 6. [图像梯度算法](http://blog.csdn.net/qq_19764963/article/details/44342389) 深入浅出、言简意赅
 7. [Spring Cloud在国内中小型公司能用起来吗？](https://www.cnblogs.com/ityouknow/p/7508306.html) 对spring cloud的较全面的点评(含spring boot)
+8. [OpenCV的HOG源码分析](http://blog.csdn.net/armily/article/details/8291310) 还有一些相关优秀文章
