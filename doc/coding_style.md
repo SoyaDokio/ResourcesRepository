@@ -2,7 +2,7 @@
 
 ## 编码风格
 
-by: SoyaDokio
+by: SoyaDokio  
 ref: https://github.com/yanghuicpp/nginx-book/blob/master/source/appendix_a.rst
 
 ### 一、基本原则
@@ -55,7 +55,7 @@ ref: https://github.com/yanghuicpp/nginx-book/blob/master/source/appendix_a.rst
 
 16. 单行注释格式为：
 ```java
-    /\* something \*/
+    /* something */
 ```
 
 17. 多行注释的格式为：
