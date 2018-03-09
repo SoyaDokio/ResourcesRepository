@@ -1,9 +1,10 @@
-Coding Style(编码风格)
+Coding Style
 ===
 
-by: SoyaDokio
+编码风格
+---
+by: SoyaDokio  
 ref: https://github.com/yanghuicpp/nginx-book/blob/master/source/appendix_a.rst
----------------------------
 
 ### 一、基本原则
 
@@ -24,10 +25,6 @@ ref: https://github.com/yanghuicpp/nginx-book/blob/master/source/appendix_a.rst
 ### 二、风格图示
 
 ![1](http://tengine.taobao.org/book/_images/code-style-2.JPG)
-![2](http://tengine.taobao.org/book/_images/code-style-2.JPG =550x550)
-![3](http://tengine.taobao.org/book/_images/code-style-2.JPG){width="550px"}
-![4](http://tengine.taobao.org/book/_images/code-style-2.JPG){:width:"550px"}
-![5](http://tengine.taobao.org/book/_images/code-style-2.JPG){:width="550px"}
 
 3. 类的注释的开始空一行。
 
