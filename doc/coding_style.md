@@ -25,9 +25,31 @@ ref: https://github.com/yanghuicpp/nginx-book/blob/master/source/appendix_a.rst
 
 01. 类的注释的开始空一行。
 
-02. 类的注释包括[暂时留空...]。
+02. 类的注释包括：
+```java
+/**
+ * Class Name : Xxxx
+ * 
+ * Description: xxxx
+ * 
+ * @author		SoyaDokio
+ * @date		2018-03-06 00:04:43
+ * @version	    xxxx
+ * @see			XxxxAction
+ * @since		JDK 1.8.0_144
+ */
+```
 
-03. 方法的注释包括[暂时留空...]。
+03. 方法的注释包括：
+```java
+    /**
+     * Method Name: xxxx
+     * Description: xxxx
+     * @param xxxx
+     * @return
+     * @since		JDK 1.8.0_144
+     */
+```
 
 04. 当条件表达式过长需要折行时，首个折行空2个缩进单位/8个空格，之后折行的缩进与首个折行保持一致。
 
