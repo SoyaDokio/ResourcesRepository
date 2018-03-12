@@ -11,3 +11,4 @@ Java tutorial
 09. [图像学习之如何理解方向梯度直方图](https://yq.aliyun.com/articles/176607）
 10. [Google机器学习教程](https://developers.google.cn/machine-learning/crash-course/) 基于TensorFlow的机器学习速成课程，约15小时。全中文书写，课程视频都由机器学习技术转述为中文音频
 11. [Flutter](flutter.io) Google用以帮助开发者在iOS和Android两个平台开发高质量原生应用的全新移动UI框架
+12. [zlib库剖析(5)：LZ77压缩算法](http://blog.csdn.net/zhoudaxia/article/details/8044092) zlib算法实现的研究，研究腾讯.pkg文件时涉及
