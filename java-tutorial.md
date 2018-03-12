@@ -15,3 +15,5 @@ Java tutorial
 13. [字符集概述](https://zhuanlan.zhihu.com/p/33411765) 作者的这篇文章差不多可以让人清晰认识字符的5W2H(What Who When Where Why How How_much)
 14. [刨根究底字符编码](https://zhuanlan.zhihu.com/paogenjiudi) 该专栏的“刨根究底字符编码”系列文章真的是刨根究底，对字符编码算是研究很深了
 15. [英语语法术语汇总（中英对照）](https://www.hjenglish.com/new/p144163/)
+16. [qq-game-resource](https://code.google.com/archive/p/qq-game-resource/) 这个 .NET 小程序会搜索 QQ 游戏目录下的 PKG 资源包和 MIF 图片，并即时浏览资源包的内容和播放 MIF 动画
+17. [QQ游戏的PKG格式文件解压工具](http://www.cppblog.com/tx7do/archive/2010/02/24/108364.html) 对腾讯.pkg文件格式做了定量说明
