@@ -13,3 +13,4 @@ Java tutorial
 11. [Flutter](flutter.io) Google用以帮助开发者在iOS和Android两个平台开发高质量原生应用的全新移动UI框架
 12. [zlib库剖析(5)：LZ77压缩算法](http://blog.csdn.net/zhoudaxia/article/details/8044092) zlib算法实现的研究，研究腾讯.pkg文件时涉及
 13. [字符集概述](https://zhuanlan.zhihu.com/p/33411765) 作者的这篇文章差不多可以让人清晰认识字符的5W2H(What Who When Where Why How How_much)
+14. [刨根究底字符编码](https://zhuanlan.zhihu.com/paogenjiudi) 该专栏的“刨根究底字符编码”系列文章真的是刨根究底，对字符编码算是研究很深了
