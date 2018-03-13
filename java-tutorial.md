@@ -21,3 +21,8 @@ Java tutorial
 19. [文本文件和二进制文件的区别](https://www.cnblogs.com/macliu/p/6340131.html) 把文本文件和二进制文件做了区分，有利于理解编码
 20. [Spring Boot构建RESTful API与单元测试](http://blog.didispace.com/springbootrestfulapi/) 翟永超
 21. [Spring Boot快速入门](http://blog.didispace.com/spring-boot-learning-1/) 翟永超
+22. [Java Service Wrapper]() 把Java Project封装成系统服务，还集成日志系统
+23. [MIME笔记](http://www.ruanyifeng.com/blog/2008/06/mime.html) 阮一峰对MIME的一点介绍
+24. [6.3 Linux系统的默认安装目录](http://book.51cto.com/art/201005/199715.htm) 算是恶补Linux相关知识吧
+25. [Python告诉你iPhone X有多热卖](https://mp.weixin.qq.com/s?__biz=MzAxMjUyNDQ5OA==&mid=2653555293&idx=1&sn=abf64d2fcf41d410261adf1e83e65783&chksm=806e24e0b719adf622d17f265334ac71cdf2d45f04070cf89bc5c9be3169a649b483b1376704&scene=0##) Python爬虫1
+26. [Python爬虫实战：抓取并保存百度云资源](https://mp.weixin.qq.com/s?__biz=MzAxMjUyNDQ5OA==&mid=2653555353&idx=1&sn=fe9ec71e50b57b466316517b280bec7d&chksm=806e2424b719ad3294c87faf6e42f3875cbf57ca76195d01474c0a0a3c338860c9bcfb620c51&scene=0&pass_ticket=tBks4QTHoAKfZfUkA4K%2B98nWH2JV49Iq1hda5sTqML%2BL49B1CykDoUwXaM%2B9UBy8#rd) Python爬虫2
