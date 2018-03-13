@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- debug:当此属性设置为true时，将打印出logback内部日志信息，实时查看logback运行状态。默认为false -->
+<!-- scan:热更新。当此属性设置为true时，配置文件如果发生改变，将会被重新加载。默认为true -->
+<!-- scanPeriod:热更新检测间隔。当scan为true时此属性生效。设置监测配置文件是否有修改的时间间隔，若未给出时间单位，默认单位为毫秒。默认为1分钟 -->
+<configuration debug="false" scan="true" scanPeriod="5000">
+
+    <!-- contextName:上下文名称。一般是多个应用程序都使用日志时，用于区分不同应用程序的日志记录。一旦设置不能修改。默认为default -->
+    <contextName>logback_context</contextName>
+
+    <!-- property:定义变量 -->
+    <!-- log.dir:这里是指定log文件存放的目录，以便于在引用处组合成一个完整的log文件path -->
+    <property name="log.dir" value="/home/soyadokio/log" />
+    <!-- 引用其它文件的设置 <property file="resources/log_config.properties" /> -->
+
+    <!-- appender:格式化日志输出 -->
+    <!-- class:用来指定输出策略，ConsoleAppender是控制台输出策略 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- 对日志进行规范编码 -->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- 变量格式是 %pattern{number} ，后边中括号及数字用于限制该变量的值的最大长度，一般是全称变缩写，而非强制限制字符长度。中括号及数字不是必须包含 -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %class:%line - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- appender:格式化日志输出 -->
+    <!-- class:用来指定输出策略，FileAppender是文件输出策略 -->
+    <appender name="[TEST]FILE" class="ch.qos.logback.core.FileAppender">
+        <!-- 这里是固定路径文件输出 -->
+        <file>${log.dir}/logging.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %class:%line - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- appender:格式化日志输出 -->
+    <!-- class:用来指定输出策略，RollingFileAppender是滚动(切分)文件输出策略 -->
+    <appender name="FULL_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 滚动策略，这里是基于时间的滚动策略 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 文件名格式 -->
+            <!-- 这里的文件名格式使用了两层的日期解释符（即%d），当使用多个日期解释符时必须尤其仅有一个主要的，其中辅助的（非主要的）需要使用“aux”标示 -->
+            <!-- 日期解释符（即%d）的第二个参数还可以用以指定时区，如%d{yyyy-MM-dd HH:mm:ss, UTC} -->
+            <FileNamePattern>${log.dir}/%d{yyyy/MM, aux}/full.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <!-- 日志文件的最大保存天数，超出自动删除旧的 -->
+            <MaxHistory>10</MaxHistory>
+            <!-- 所有日志文件的最大保存空间，超出自动删除旧的 -->
+            <totalSizeCap>3GB</totalSizeCap>
+        </rollingPolicy>
+        <!-- 对日志进行规范编码 -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %class:%line - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- appender:格式化日志输出 -->
+    <!-- class:用来指定输出策略，RollingFileAppender是滚动(切分)文件输出策略 -->
+    <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 滚动策略，这里是基于时间的滚动策略 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 文件名格式 -->
+            <!-- 这里的文件名格式使用了两层的日期解释符（即%d），当使用多个日期解释符时必须尤其仅有一个主要的，其中辅助的（非主要的）需要使用“aux”标示 -->
+            <!-- 日期解释符（即%d）的第二个参数还可以用以指定时区，如%d{yyyy-MM-dd HH:mm:ss, UTC} -->
+            <FileNamePattern>${log.dir}/%d{yyyy/MM, aux}/info.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <!-- 日志文件的最大保存天数，超出自动删除旧的 -->
+            <MaxHistory>10</MaxHistory>
+            <!-- 所有日志文件的最大保存空间，超出自动删除旧的 -->
+            <totalSizeCap>3GB</totalSizeCap>
+        </rollingPolicy>
+        <!-- 对日志进行规范编码 -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %class:%line - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 拦截器:用于按照日志级别来拦截控制日志记录的输出 -->
+        <!-- ThresholdFilter:基于特定的阈值进行过滤。当事件的等级等于或者高于阈值时，decide方法将会返回neutral，而当事件的等级低于阈值时，就会返回denied -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+    
+    <!-- appender:格式化日志输出 -->
+    <!-- class:用来指定输出策略，RollingFileAppender是滚动(切分)文件输出策略 -->
+    <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 滚动策略，这里是基于时间的滚动策略 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${log.dir}/%d{yyyy/MM, aux}/error.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+        <!-- (滚动)触发策略，这里是基于大小的(滚动)触发策略 -->
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>1000MB</MaxFileSize>
+        </triggeringPolicy>
+        <!-- 对日志进行规范编码 -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %class:%line - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 拦截器:用于按照日志级别来拦截控制日志记录的输出 -->
+        <!-- LevelFilter:基于日志事件等级的匹配程度。如果事件的等级于配置等级相同，filter就会通过onmatch或者onmismatch的配置接受或者拒绝该事件 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!-- 全局设置 -->
+    <root level="ALL">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="[TEST]FILE" />
+        <appender-ref ref="INFO_FILE" />
+        <appender-ref ref="FULL_FILE" />
+        <appender-ref ref="ERROR_FILE" />
+    </root>
+
+    <!-- 特例设置（最后一段可以是包名也可以是类名，或者直接通配符*） -->
+    <logger name="org.springframework" level="ERROR"/>
+    <logger name="org.apache.ibatis" level="ERROR"/>
+    <logger name="java.sql.Connection" level="ERROR"/>
+    <logger name="java.sql.Statement" level="ERROR"/>
+    <logger name="java.sql.PreparedStatement" level="ERROR"/>
+    <logger name="com.qunar.des.common.dao" additivity="false" level="INFO">
+        <appender-ref ref="INFO_FILE"/>
+    </logger>
+
+</configuration>
