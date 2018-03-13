@@ -19,3 +19,5 @@ Java tutorial
 17. [QQ游戏的PKG格式文件解压工具](http://www.cppblog.com/tx7do/archive/2010/02/24/108364.html) 对腾讯.pkg文件格式做了定量说明
 18. [中文编码杂谈](http://blog.sae.sina.com.cn/archives/2279) Sina整理汇编的这篇关于中文编码的问题算是很全面了，也比较详细
 19. [文本文件和二进制文件的区别](https://www.cnblogs.com/macliu/p/6340131.html) 把文本文件和二进制文件做了区分，有利于理解编码
+20. [Spring Boot构建RESTful API与单元测试](http://blog.didispace.com/springbootrestfulapi/) 翟永超
+21. [Spring Boot快速入门](http://blog.didispace.com/spring-boot-learning-1/) 翟永超
