@@ -27,3 +27,4 @@ Java tutorial
 24. [6.3 Linux系统的默认安装目录](http://book.51cto.com/art/201005/199715.htm) 算是恶补Linux相关知识吧
 25. [Python告诉你iPhone X有多热卖](https://mp.weixin.qq.com/s?__biz=MzAxMjUyNDQ5OA==&mid=2653555293&idx=1&sn=abf64d2fcf41d410261adf1e83e65783&chksm=806e24e0b719adf622d17f265334ac71cdf2d45f04070cf89bc5c9be3169a649b483b1376704&scene=0##) Python爬虫1
 26. [Python爬虫实战：抓取并保存百度云资源](https://mp.weixin.qq.com/s?__biz=MzAxMjUyNDQ5OA==&mid=2653555353&idx=1&sn=fe9ec71e50b57b466316517b280bec7d&chksm=806e2424b719ad3294c87faf6e42f3875cbf57ca76195d01474c0a0a3c338860c9bcfb620c51&scene=0&pass_ticket=tBks4QTHoAKfZfUkA4K%2B98nWH2JV49Iq1hda5sTqML%2BL49B1CykDoUwXaM%2B9UBy8#rd) Python爬虫2
+27. [使用hystrix保护你的应用·Hystrix入门](http://kriszhang.com/hystrix_defend_your_webapp/)
