@@ -29,3 +29,4 @@ Java tutorial
 26. [Python爬虫实战：抓取并保存百度云资源](https://mp.weixin.qq.com/s?__biz=MzAxMjUyNDQ5OA==&mid=2653555353&idx=1&sn=fe9ec71e50b57b466316517b280bec7d&chksm=806e2424b719ad3294c87faf6e42f3875cbf57ca76195d01474c0a0a3c338860c9bcfb620c51&scene=0&pass_ticket=tBks4QTHoAKfZfUkA4K%2B98nWH2JV49Iq1hda5sTqML%2BL49B1CykDoUwXaM%2B9UBy8#rd) Python爬虫2
 27. [使用hystrix保护你的应用·Hystrix入门](http://kriszhang.com/hystrix_defend_your_webapp/)
 28. [Java程序员简历模板](https://github.com/opentalking/ResumeSample/blob/master/java.md) 如何写好简历
+29. [关于Java你可能不知道的10件事](https://github.com/oldratlee/translations/blob/master/10-things-you-didnt-know-about-java/README.md)
