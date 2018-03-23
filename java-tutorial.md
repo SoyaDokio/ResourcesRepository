@@ -15,9 +15,9 @@ Java tutorial
 13. [字符集概述](https://zhuanlan.zhihu.com/p/33411765) 作者的这篇文章差不多可以让人清晰认识字符的5W2H(What Who When Where Why How How_much)
 14. [刨根究底字符编码](https://zhuanlan.zhihu.com/paogenjiudi) 该专栏的“刨根究底字符编码”系列文章真的是刨根究底，对字符编码算是研究很深了
 15. [英语语法术语汇总（中英对照）](https://www.hjenglish.com/new/p144163/)
-16. [pkg文件--一种简单的游戏资源打包格式](http://blog.csdn.net/safjhgj/article/details/49202383) .pkg格式分析部分有顺序错误，但代码无误可借鉴
-17. [qq-game-resource](https://code.google.com/archive/p/qq-game-resource/) 这个 .NET 小程序会搜索 QQ 游戏目录下的 PKG 资源包和 MIF 图片，并即时浏览资源包的内容和播放 MIF 动画<br />
-[QQ游戏的PKG格式文件解压工具](http://www.cppblog.com/tx7do/archive/2010/02/24/108364.html) 对腾讯.pkg文件格式做了定量说明
+16. ~~[pkg文件--一种简单的游戏资源打包格式](http://blog.csdn.net/safjhgj/article/details/49202383)~~ .pkg格式分析部分有顺序错误，但代码无误可借鉴
+17. ~~[qq-game-resource](https://code.google.com/archive/p/qq-game-resource/)~~ 这个 .NET 小程序会搜索 QQ 游戏目录下的 PKG 资源包和 MIF 图片，并即时浏览资源包的内容和播放 MIF 动画<br />
+~~[QQ游戏的PKG格式文件解压工具](http://www.cppblog.com/tx7do/archive/2010/02/24/108364.html)~~ 对腾讯.pkg文件格式做了定量说明
 18. [中文编码杂谈](http://blog.sae.sina.com.cn/archives/2279) Sina整理汇编的这篇关于中文编码的问题算是很全面了，也比较详细
 19. [文本文件和二进制文件的区别](https://www.cnblogs.com/macliu/p/6340131.html) 把文本文件和二进制文件做了区分，有利于理解编码
 20. [Spring Boot构建RESTful API与单元测试](http://blog.didispace.com/springbootrestfulapi/) 翟永超
@@ -28,3 +28,4 @@ Java tutorial
 25. [Python告诉你iPhone X有多热卖](https://mp.weixin.qq.com/s?__biz=MzAxMjUyNDQ5OA==&mid=2653555293&idx=1&sn=abf64d2fcf41d410261adf1e83e65783&chksm=806e24e0b719adf622d17f265334ac71cdf2d45f04070cf89bc5c9be3169a649b483b1376704&scene=0##) Python爬虫1
 26. [Python爬虫实战：抓取并保存百度云资源](https://mp.weixin.qq.com/s?__biz=MzAxMjUyNDQ5OA==&mid=2653555353&idx=1&sn=fe9ec71e50b57b466316517b280bec7d&chksm=806e2424b719ad3294c87faf6e42f3875cbf57ca76195d01474c0a0a3c338860c9bcfb620c51&scene=0&pass_ticket=tBks4QTHoAKfZfUkA4K%2B98nWH2JV49Iq1hda5sTqML%2BL49B1CykDoUwXaM%2B9UBy8#rd) Python爬虫2
 27. [使用hystrix保护你的应用·Hystrix入门](http://kriszhang.com/hystrix_defend_your_webapp/)
+28. [Java程序员简历模板](https://github.com/opentalking/ResumeSample/blob/master/java.md) 如何写好简历
