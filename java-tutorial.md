@@ -30,3 +30,4 @@ Java tutorial
 27. [使用hystrix保护你的应用·Hystrix入门](http://kriszhang.com/hystrix_defend_your_webapp/)
 28. [Java程序员简历模板](https://github.com/opentalking/ResumeSample/blob/master/java.md) 如何写好简历
 29. [关于Java你可能不知道的10件事](https://github.com/oldratlee/translations/blob/master/10-things-you-didnt-know-about-java/README.md)
+30. [史上最简单的 SpringCloud 教程 | 终章](http://blog.csdn.net/forezp/article/details/70148833) Spring Cloud系列教程，看起来挺接地气
