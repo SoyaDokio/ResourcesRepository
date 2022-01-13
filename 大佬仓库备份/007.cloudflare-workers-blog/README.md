@@ -2,10 +2,12 @@ cloudflare-workers-blog
 
 这是一个运行在cloudflare workers 上的博客程序,使用 cloudflare KV作为数据库,无其他依赖. 兼容静态博客的速度,以及动态博客的灵活性,方便搭建不折腾.
 
-原作者搭建的演示地址: https://blog.gezhong.vip
+原作者搭建的演示地址: https://blog.gezhong.vip/
+
 我搭建的地址：http://cf-blog.sdokio.workers.dev/
 
 体验感受的话：
+
 1. 看到这里对歪了，那里少个按钮，或者一个什么玩意儿有点错误，小毛病不少，没办法，个人开发者的项目就是这样；
 1. 再一个，感觉基本功能有了，属于能用级别，换句话说不少地方感觉不够人性化；
 1. 至于作者说的Wokrer-KV的性能足够的问题，我没体验到，因为上面两点已经让我放弃了。
