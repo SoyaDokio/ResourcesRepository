@@ -1,3 +1,5 @@
+date: 2018/03/13 17:27
+
 man awk中PATTERNS AND ACTIONS一段很有基礎價值
 
 

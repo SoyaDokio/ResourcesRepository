@@ -1,2 +1,2 @@
-# Resources-Repository
-A repository only for storing all kinds of resources, like Image, Text, Office Document, Source Code, etc..
+# 个人文档专用仓库
+用于存放个人收藏的一些技术实现，主要是防止丢失，毕竟记忆力是个不靠谱的东西。
