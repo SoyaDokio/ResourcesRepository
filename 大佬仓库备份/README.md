@@ -9,4 +9,12 @@
 |005|[EtherDream](https://github.com/EtherDream)/[jsproxy](https://github.com/EtherDream/jsproxy)|同左|2022/01/13 18:26|
 |006|[rainer-cpu](https://github.com/rainer-cpu)/[LXK9301](https://github.com/rainer-cpu/LXK9301)|[LXK9301](https://github.com/LXK9301)/[jd_scripts](https://github.com/LXK9301/jd_scripts)|2022/01/13 18:44|
 |007|[gdtool](https://github.com/gdtool)/[cloudflare-workers-blog](https://github.com/gdtool/cloudflare-workers-blog)|同左|2022/01/13 18:55|
+|008|[SkaceKamen](https://github.com/SkaceKamen)/[wot-loader](https://github.com/SkaceKamen/wot-loader)|同左|2022/01/14 15:17|
+|009|[SkaceKamen](https://github.com/SkaceKamen)/[wot-data-importer](https://github.com/SkaceKamen/wot-data-importer)|同左|2022/01/14 15:19|
+|010|[SkaceKamen](https://github.com/SkaceKamen)/[wot-model-converter](https://github.com/SkaceKamen/wot-model-converter)|同左|2022/01/14 16:13|
+|011|[SkaceKamen](https://github.com/SkaceKamen)/[wot-python-lib](https://github.com/SkaceKamen/wot-python-lib)|同左|2022/01/14 15:27|
+|012|[SkaceKamen](https://github.com/SkaceKamen)/[wot-model-viewer](https://github.com/SkaceKamen/wot-model-viewer)|同左|2022/01/14 15:28|
+|013|[Yiov](https://github.com/Yiov)/[wool](https://github.com/Yiov/wool)|同左|2022/01/14 16:31|
+
+
 
