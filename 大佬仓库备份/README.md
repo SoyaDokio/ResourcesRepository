@@ -15,6 +15,8 @@
 |011|[SkaceKamen](https://github.com/SkaceKamen)/[wot-python-lib](https://github.com/SkaceKamen/wot-python-lib)|同左|2022/01/14 15:27|
 |012|[SkaceKamen](https://github.com/SkaceKamen)/[wot-model-viewer](https://github.com/SkaceKamen/wot-model-viewer)|同左|2022/01/14 15:28|
 |013|[Yiov](https://github.com/Yiov)/[wool](https://github.com/Yiov/wool)|同左|2022/01/14 16:31|
-
+|014|[shufflewzc](https://github.com/shufflewzc)/[faker](https://github.com/shufflewzc/faker)|同左|2022/01/15 01:04|
+|015|[shufflewzc](https://github.com/shufflewzc)/[faker2](https://github.com/shufflewzc/faker2)|同左|2022/01/15 01:04|
+|016|[shufflewzc](https://github.com/shufflewzc)/[faker3](https://github.com/shufflewzc/faker3)|同左|2022/01/15 01:04|
 
 
