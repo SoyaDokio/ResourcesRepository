@@ -21,3 +21,7 @@ Movie Data Capture
 - 开发者提供的详细[wiki.md](./wiki.md)
 - 开发者提供的release[Movie_Data_Capture-CLI-6.0.1-Windows-amd64.zip](./Movie_Data_Capture-CLI-6.0.1-Windows-amd64.zip)
 
+
+另外有两篇搭建本地AV媒体库的博文分享：
+- 2019/03/25 [利用EverAver+Emby+Kodi打造本地AV（毛片）媒体库](https://pockies.github.io/2019/03/25/everaver-emby-kodi/)
+- 2020/01/09 [利用AV Data Capture+Jellyfin+Kodi打造更优雅的本地AV（毛片）+普通影片媒体库](https://pockies.github.io/2020/01/09/av-data-capture-jellyfin-kodi/)
