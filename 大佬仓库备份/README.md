@@ -27,3 +27,4 @@
 |019|[yoshiko2](https://github.com/yoshiko2)/[Movie_Data_Capture](https://github.com/yoshiko2/Movie_Data_Capture)|同左|2022/01/27 15:29|
 |020|[VergilGao](https://github.com/VergilGao)/[docker-mdc](https://github.com/VergilGao/docker-mdc)|同左|2022/01/27 15:53|
 |021|[moyy996](https://github.com/moyy996)/[AVDC](https://github.com/moyy996/AVDC)|同左|2022/01/27 16:12|
+|022|[ccwav](https://github.com/ccwav)/[QLScript2](https://github.com/ccwav/QLScript2)|同左|2022/02/11 01:10|
