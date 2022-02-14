@@ -5,3 +5,5 @@
 顺便一提，网友 [奔跑的蜗牛119](https://www.52pojie.cn/home.php?mod=space&uid=445524) 在该分享贴下又分享了一个Java工具类仓库，如今已是一个很大的仓库了：
 - 官方网站：https://hutool.cn/
 - 官方文档：https://www.bookstack.cn/books/hutool-5.6.0-zh
+- Github: https://github.com/dromara/hutool/
+- Gitee: https://gitee.com/dromara/hutool/
